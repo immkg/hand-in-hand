@@ -1,0 +1,1 @@
+import{r as e,t}from"./api-hEI_vQor.js";import{l as n,m as r,o as i}from"./States-OSSI76Rd.js";var a=()=>r({queryKey:[`albums`],queryFn:()=>e(`/v1/albums`,{schema:n})}),o=t=>r({queryKey:[`album`,t],queryFn:()=>e(`/v1/albums/${t}`,{schema:i})}),s=(e,n)=>`${t}/v1/media/${e}/${n}`;export{o as n,a as r,s as t};
