@@ -1,0 +1,1 @@
+import{r as e,x as t}from"./api-Dosifrrb.js";import{l as n,s as r,u as i}from"./States-C2Tq4upX.js";var a=[`me`];function o(){return i({queryKey:a,queryFn:()=>e(`/v1/me`,{schema:r})})}function s(){let i=t();return n({mutationFn:t=>e(`/v1/auth/invite`,{method:`POST`,body:t,schema:r}),onSuccess:e=>{i.clear(),i.setQueryData(a,e)}})}export{o as n,s as t};
