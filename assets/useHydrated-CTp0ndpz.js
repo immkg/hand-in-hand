@@ -1,0 +1,1 @@
+import{ct as e,ut as t}from"./jsx-runtime-BguEnLzl.js";var n=t(e(),1),r=()=>()=>{};function i(){return(0,n.useSyncExternalStore)(r,()=>!0,()=>!1)}export{i as t};
