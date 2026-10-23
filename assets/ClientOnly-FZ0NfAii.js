@@ -1,0 +1,1 @@
+import{t as e}from"./useHydrated-CTp0ndpz.js";function t({children:t,fallback:n=null}){return e()?t():n}export{t};
